@@ -1,0 +1,57 @@
+name: petstore
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+
+
+
+environment:
+  sdk: ^3.13.2
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+  flutter_screenutil: ^5.9.3
+  flutter_bloc: ^9.1.1
+  email_validator: ^3.0.0
+  fpdart: ^1.2.0
+  get_it: ^9.3.0
+  go_router: ^18.1.4
+  flutter_secure_storage: ^11.2.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+
+
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-VariableFont_wght.ttf
+
+
+        
+dependency_overrides:
+  material_ui: 1.11.0        
